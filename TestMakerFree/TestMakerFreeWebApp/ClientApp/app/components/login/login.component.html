@@ -29,7 +29,7 @@
             <input type="password" required formControlName="Password"
                    class="form-control"
                    placeholder="Password" />
-            <span *ngIf="hasError('Password')" 
+            <span *ngIf="hasError('Password')"
                   class="glyphicon glyphicon-remove form-control-feedback"
                   aria-hidden="true"></span>
             <div *ngIf="hasError('Password')"
@@ -56,5 +56,6 @@
             Don't have an account? Click here to create one!
         </a>
     </div>
-    <login-facebook></login-facebook>
+    <!--<login-facebook></login-facebook>-->
+    <login-externalproviders></login-externalproviders>
 </div>

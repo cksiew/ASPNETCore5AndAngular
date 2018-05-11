@@ -32,6 +32,7 @@
     <None Remove="ClientApp\app\components\answer\answer-edit.component.ts" />
     <None Remove="ClientApp\app\components\answer\answer-list.component.ts" />
     <None Remove="ClientApp\app\components\login\login.component.ts" />
+    <None Remove="ClientApp\app\components\login\login.externalproviders.component.ts" />
     <None Remove="ClientApp\app\components\login\login.facebook.component.ts" />
     <None Remove="ClientApp\app\components\pagenotfound\pagenotfound.component.ts" />
     <None Remove="ClientApp\app\components\question\question-edit.component.ts" />
@@ -59,6 +60,7 @@
     <TypeScriptCompile Include="ClientApp\app\components\answer\answer-list.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\answer\answer-edit.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\login\login.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\login\login.externalproviders.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\login\login.facebook.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\pagenotfound\pagenotfound.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\question\question-edit.component.ts" />

@@ -26,6 +26,7 @@ import { ResultListComponent } from './components/result/result-list.component';
 import { ResultEditComponent } from './components/result/result-edit.component';
 import { QuizSearchComponent } from './components/quiz/quiz-search.component';
 import { RegisterComponent } from './components/user/register.component';
+import { LoginExternalProvidersComponent } from './components/login/login.externalproviders.component';
 
 @NgModule({
     declarations: [
@@ -45,6 +46,7 @@ import { RegisterComponent } from './components/user/register.component';
         AboutComponent,
         LoginComponent,
         LoginFacebookComponent,
+        LoginExternalProvidersComponent,
         PageNotFoundComponent,
         RegisterComponent
     ],
